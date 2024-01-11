@@ -9,7 +9,7 @@ numOfElements = 200
 selectedMajority = rand(1, numOfDistinctElements)
 print(f"Selected Majority: {selectedMajority}")
 
-data = [selectedMajority if rand(0, 2) else rand(1, numOfDistinctElements) // 2
+data = [selectedMajority if rand(0, 2) else rand(1, numOfDistinctElements)
         for _ in range(numOfElements)]
 
 # Case that guaranteed to has no majority
