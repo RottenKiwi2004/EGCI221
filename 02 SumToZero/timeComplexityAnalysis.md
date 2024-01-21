@@ -137,4 +137,4 @@ outer loop will run for $n-1$ times and inner loop will run at most $(i - 1) + (
 
 So, the time complexity of this nested loop is $(n-2)(n-1) = n^2 - 3n + 2 = O(n^2)$
 
-This concludes the `mergeSort` function's time complexity to be $O(n^2)+O(n \log n) = O(n^2)$
+This concludes the `sumToZero` function's time complexity to be $O(n^2)+O(n \log n) = O(n^2)$
